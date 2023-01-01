@@ -1,0 +1,75 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-image: linear-gradient(to right top, #ffa500, #ff885a, #ff7c98, #ff86ca, #cd98e8, #aba7f8, #87b5fd, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    background-size: cover;
+    min-height: 100vh;
+    
+    
+}
+h1{
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 20vh;
+
+}
+.input-box{
+    padding: 0.45rem;
+    font-size: 1.25rem;
+    text-align: center;
+    min-height: 5.5vh;
+    
+}
+.AC,.equal,.li{
+    background-color: white;
+    min-height: 8vh;
+    min-width: 8vh;
+    border: none;
+    
+    display: flexbox;
+    cursor: pointer;
+    
+    border-radius: 0.5rem;
+}
+.equal,.li{
+    margin-left: -40%;
+    min-height: 8vh;
+    min-width: 47vh;
+    margin-left: 2vh;
+}
+.f1{
+    display: block;
+    text-align: center;
+    padding: 0.45rem;
+    border: none;
+    outline: none;
+    font-size: 1.25rem;
+    
+}
+.add,.sub,.mul,.div,.mod,.square{
+    
+    
+    background-color: white;
+    min-height: 8vh;
+    min-width: 8vh;
+    border: 0.25mm;
+    cursor: pointer;
+    border-radius: 0.99rem;
+    min-width: 15vh;
+    min-height: 10vh;
+}
+.f2,.f3,.f4,.f5{
+    
+    display: block;
+    text-align: center;
+    padding: 0.45rem;
+    font-size: 1.25rem;
+}
+.li{
+    font-size: 2rem;
+    cursor: text;
+
+}
